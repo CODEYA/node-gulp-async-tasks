@@ -26,13 +26,13 @@ var gulp = require('gulp-async-tasks')(require('gulp'));
 gulp.task('dosomething', function() {
   return gulp.src('src/**/*').pipe(...);
 });
-gulp.task('default', ['dosomeghint:async']);
+gulp.task('default', ['dosomeghing:async']);
 ```
 
 If you use gulp-async-tasks with [require-dir](https://www.npmjs.com/package/require-dir),
 
 ```JavaScript
-var gulp = require('gulp-help')(require('gulp'));
+var gulp = require('gulp');
 require('require-dir')('./gulp');
 require('gulp-async-tasks')(gulp);
 ```
