@@ -1,0 +1,24 @@
+{
+  "name": "gulp-async-tasks",
+  "version": "1.0.0",
+  "description": "A gulp plugin to create async tasks from gulpfile.js tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CODEYA/node-gulp-async-tasks.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "CODEYA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CODEYA/node-gulp-async-tasks/issues"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.6"
+  }
+}
